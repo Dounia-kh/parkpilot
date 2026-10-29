@@ -16,4 +16,6 @@ def calculer_tarif(minutes: int) -> float:
 
 
 def formater_tarif(montant: float) -> str:
-    return f"{montant:.2f} EUR"
+    return f"{montant:.2f} EUR"  
+
+#calcul du tarif de stationnement 
