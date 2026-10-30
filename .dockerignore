@@ -1,0 +1,8 @@
+.git
+.github
+__pycache__/
+*.pyc
+.venv/
+php
+trivy-report.*
+docker-compose.yml
