@@ -1,0 +1,10 @@
+services:
+  parkpilot:
+    build:
+      context: .
+      args:
+        APP_VERSION: local
+    image: parkpilot:local
+    ports:
+      - "8000:8000"
+    restart: unless-stopped
